@@ -1,23 +1,18 @@
 .main-footer{
-   
-   
-    background-image: url(../img/footer/Graphic_mob.png);
-    
-    background-size: contain;
-    padding-bottom: 20px;
-    border-top: 1px solid rgba(255, 255, 255, .2);
-
-   margin-left: auto;
-   margin-right: auto;
-   letter-spacing: normal;
-   padding-top: 40px;
-   padding-bottom: 20px;
+background-image: url(../img/footer/Graphic_mob.png);
+background-size: contain;
+padding-bottom: 20px;
+border-top: 1px solid rgba(255, 255, 255, .2);
+margin-left: auto;
+margin-right: auto;
+letter-spacing: normal;
+padding-top: 40px;
+padding-bottom: 20px;
 }
 @media only screen and (max-width:767.98px) and (min-resolution: 192dpi){
     .main-footer{
         background-image: url(../img/footer/Graphic_mob@2x.png); 
     }
-
 }
 
 /* Tablet */
@@ -40,9 +35,7 @@
    /* Desktop */
    @media only screen and (min-width: 1280px){
        .main-footer{
-      
-       
-        background-image: url(../img/footer/Graphic_descktop.png);
+      background-image: url(../img/footer/Graphic_descktop.png);
        } 
    }
    @media only screen and (min-width:1280px) and (min-resolution: 192dpi){
@@ -69,12 +62,9 @@
 @media only screen and (min-width: 768px) and (max-width: 1279px){
     .block-footer{
         display: flex;
-       
         font-size: 14px;
         justify-content: space-between;
-
-        
-    }
+ }
 }
 
 @media only screen and (min-width: 1280px) {
@@ -82,8 +72,7 @@
         display: flex;
         font-size: 14px;
         line-height: normal;
-        /* padding-left: 101px;
-        padding-right: 101px; */
+       
     }
 }
 
@@ -149,10 +138,6 @@
     } 
 }
 
-
-
-
-
 .outer-ul{
     display: flex;
     gap: 40px;
@@ -204,13 +189,12 @@
 @media only screen and (min-width: 1440px){
     .second-block{
     margin-right: 191px;
-    
-}
-
+    }
 }
 
 .footer-input{
-width: 267px;
+max-width: 267px;
+width: 100%;
 height: 60px;
 outline: transparent;
 border-radius: 12px;
@@ -219,7 +203,10 @@ padding: 20px 18px;
 font-size: 16px;
 margin-bottom: 40px;
 
-}@media only screen and (min-width: 768px){
+
+
+}
+@media only screen and (min-width: 768px){
     .footer-input{
         width: 178px;
     }  
@@ -230,17 +217,13 @@ margin-bottom: 40px;
    width: 216px;
    font-size: 16px;
    line-height: 1.25;
-    
-}
-
+    }
 }
 
 
 .footer-button {
    
-  
-   
-    border-radius: 12px;
+ border-radius: 12px;
     background-color: var(--dark-grey);
     border: transparent;
     color: var(--white);
@@ -289,13 +272,13 @@ margin-bottom: 40px;
     }
 }
 
-
-
-
-
 .form-footer{
     display: flex;
     gap: 8px;
+   
+}
+.label-input{
+    width: 100%;
 }
 
 @media only screen and (min-width: 1280px){
