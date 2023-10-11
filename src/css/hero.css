@@ -10,10 +10,9 @@
 
 .div-hero-section {
   background: var(--gradient-end);
-  width: 335px;
   height: 777px;
   border-radius: 30px;
-  padding: 40px 20px 20px 20px;
+  padding: 40px 20px 0 20px;
 }
 .color-hero-update {
   color: var(--brown);
@@ -35,11 +34,11 @@
 
 .hero-studend-and-review {
   display: flex;
-  width: 251px;
-  gap: 37px;
+  max-width: 251px;
+  justify-content: space-between;
+  gap: 40px;
 }
-
-.hero-students {
+a .hero-students {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -184,6 +183,17 @@
   }
 }
 
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+  .div-hero-section {
+    min-width: 280px;
+    margin: 0 20px;
+  }
+}
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+  .div-hero-section {
+    max-width: 295px;
+  }
+}
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   .hero-section-one {
     margin-bottom: 34px;
@@ -193,6 +203,11 @@
   }
   .hero-section {
     padding-bottom: 80px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .hero-studend-and-review {
+    max-width: 388px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1280px) {
@@ -205,6 +220,7 @@
 
     margin-top: 20px;
   }
+
   .hero-section {
     padding-bottom: 100px;
   }
@@ -251,7 +267,6 @@
   .hero-img-man-main-desk {
     display: none;
   }
-
   .hero-studend-and-review {
     margin-bottom: 39px;
   }
